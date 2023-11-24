@@ -1,0 +1,321 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Barlow:wght@600&family=Fraunces:opsz,wght@9..144,700;9..144,900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="build.css" />
+    <title>Sunnyside agency landing page</title>
+  </head>
+  <body>
+    <header
+      class="bg-[url('../src/img/mobile/image-header.jpg')] md:bg-[url('../src/img/desktop/image-header.jpg')] bg-cover bg-no-repeat bg-center h-[600px] relative"
+    >
+      <nav class="flex justify-between w-[85%] h-[60px] mx-auto pt-6 mb-20">
+        <img src="./img/logo.svg" alt="" class="w-[150px] h-auto" />
+        <img
+          src="./img/icon-hamburger.svg"
+          alt=""
+          class="cursor-pointer w-[35px] h-[30px] md:hidden hamburger-button"
+        />
+        <ul class="max-md:hidden flex gap-7 items-center">
+          <li class="text-white font-barlow cursor-pointer">About</li>
+          <li class="text-white font-barlow cursor-pointer">Services</li>
+          <li class="text-white font-barlow cursor-pointer">Projects</li>
+          <li
+            class="text-black font-fraunces cursor-pointer bg-white hover:bg-[#6fcfff] hover:text-white px-6 py-3 rounded-3xl"
+          >
+            Contact
+          </li>
+        </ul>
+      </nav>
+      <h1
+        class="text-center text-white font-fraunces font-black text-[40px] leading-[45px] uppercase tracking-widest max-w-[85%] m-auto"
+      >
+        We are creatives
+      </h1>
+      <img
+        src="./img/icon-arrow-down.svg"
+        alt=""
+        class="absolute bottom-[150px] md:bottom-[245px] left-[50%] translate-x-[-50%] md:w-[30px]"
+      />
+
+      <ul
+        class="hidden flex-col gap-7 items-center bg-white z-10 w-[85%] absolute md:hidden top-[110px] left-[50%] translate-x-[-50%] py-10 hamburger-menu"
+      >
+        <li class="text-[#a7abae] font-barlow cursor-pointer">About</li>
+        <li class="text-[#a7abae] font-barlow cursor-pointer">Services</li>
+        <li class="text-[#a7abae] font-barlow cursor-pointer">Projects</li>
+        <li
+          class="text-black font-fraunces cursor-pointer bg-[#fad400] px-6 py-3 rounded-3xl"
+        >
+          Contact
+        </li>
+        <div class="arrow-down absolute"></div>
+      </ul>
+    </header>
+
+    <main class="md:grid md:grid-cols-2 md:grid-rows-2">
+      <!-- First section - start -->
+      <img
+        src="img/mobile/image-transform.jpg"
+        alt=""
+        class="w-[100%] h-auto md:order-2"
+      />
+
+      <section
+        class="w-[85%] max-md:h-[500px] m-auto text-center flex flex-col justify-center items-center md:order-1 lg:items-start lg:p-12"
+      >
+        <h1 class="max-md:mt-12 mb-6 text-3xl font-fraunces font-bold">
+          Transform your brand
+        </h1>
+
+        <p
+          class="font-barlow text-[#a7abae] text-lg md:text-sm font-semibold mb-6 lg:text-left"
+        >
+          We are a full-service creative agency specializing in helping brands
+          grow fast. Engage your clients through compelling visuals that do most
+          of the marketing for you.
+        </p>
+        <div class="relative cursor-pointer">
+          <h2
+            class="text-xl font-fraunces font-black max-md:mb-14 z-10 cursor-pointer"
+          >
+            Learn more
+          </h2>
+          <div
+            class="w-[135px] h-[10px] bg-[#fad400] bg-opacity-50 absolute left-[50%] top-[17px] translate-x-[-50%] -z-10 rounded-xl"
+          ></div>
+        </div>
+      </section>
+
+      <!-- First section - end -->
+
+      <!-- Second section - start -->
+      <img
+        src="img/mobile/image-stand-out.jpg"
+        alt=""
+        class="w-[100%] h-auto md:order-3"
+      />
+      <section
+        class="w-[85%] max-md:h-[500px] m-auto text-center flex flex-col justify-center items-center md:order-4 lg:items-start lg:p-12"
+      >
+        <h1
+          class="max-md:mt-12 mb-6 text-3xl font-fraunces font-bold lg:text-left"
+        >
+          Stand out to the right audience
+        </h1>
+
+        <p
+          class="font-barlow text-[#a7abae] text-lg lg:text-left lg:text-sm font-semibold mb-6"
+        >
+          Using a collaborative formula of designers, researchers,
+          photographers, videographers, and copywriters, we’ll build and extend
+          your brand in digital places.
+        </p>
+        <div class="relative cursor-pointer">
+          <h2
+            class="text-xl font-fraunces font-black max-md:mb-14 z-10 cursor-pointer"
+          >
+            Learn more
+          </h2>
+          <div
+            class="w-[135px] h-[10px] bg-[#fe7867] bg-opacity-50 absolute left-[50%] top-[17px] translate-x-[-50%] -z-10 rounded-xl"
+          ></div>
+        </div>
+      </section>
+      <!-- Second section - end -->
+
+      <!-- Third section - start -->
+      <section
+        class="max-md:bg-[url('../src/img/mobile/image-graphic-design.jpg')] bg-cover bg-no-repeat bg-center text-center h-[650px] md:h-auto flex flex-col justify-end md:relative md:order-5"
+      >
+        <img
+          src="img/desktop/image-graphic-design.jpg"
+          alt=""
+          class="max-md:hidden w-[100%]"
+        />
+        <div
+          class="w-[85%] mx-auto mb-10 md:absolute md:left-[50%] md:translate-x-[-50%]"
+        >
+          <h1
+            class="text-[#25564b] text-3xl font-fraunces font-bold mb-5 md:mb-2"
+          >
+            Graphic design
+          </h1>
+          <p class="text-[#25564b] text-[13px] font-semibold mb-6 font-barlow">
+            Great design makes you memorable. We deliver artwork that
+            underscores your brand message and captures potential clients’
+            attention.
+          </p>
+        </div>
+      </section>
+
+      <!-- Third section - end -->
+
+      <!-- Fourth section - start -->
+      <section
+        class="max-md:bg-[url('../src/img/mobile/image-photography.jpg')] bg-cover bg-no-repeat bg-center text-center h-[650px] md:h-auto flex flex-col justify-end md:relative md:order-6"
+      >
+        <img
+          src="img/desktop/image-photography.jpg"
+          alt=""
+          class="max-md:hidden w-[100%]"
+        />
+        <div
+          class="w-[85%] mx-auto mb-10 md:absolute md:w-[90%] md:left-[50%] md:translate-x-[-50%] md:max-lg:w-[80%]"
+        >
+          <h1
+            class="text-[#19536b] text-3xl font-fraunces font-bold mb-5 md:mb-2"
+          >
+            Photography
+          </h1>
+          <p class="text-[#19536b] text-[14px] font-semibold mb-6 font-barlow">
+            Increase your credibility by getting the most stunning, high-quality
+            photos that improve your business image.
+          </p>
+        </div>
+      </section>
+
+      <!-- Fourth section - end -->
+    </main>
+
+    <!-- Client testimonials section - start -->
+
+    <section
+      class="w-[85%] mx-auto my-14 lg:h-[500px] flex flex-col justify-center items-center"
+    >
+      <h1
+        class="font-fraunces text-lg font-bold uppercase text-center text-[#a7abae] tracking-[3px] mb-14"
+      >
+        Client testimonials
+      </h1>
+
+      <div class="md:flex max-lg:gap-[25px] lg:gap-[50px]">
+        <div class="flex flex-col items-center text-center">
+          <img
+            src="img/image-emily.jpg"
+            alt=""
+            class="w-[60px] rounded-[50%] mb-4"
+          />
+          <p class="mb-4 text-[#818498] font-barlow">
+            We put our trust in Sunnyside and they delivered, making sure our
+            needs were met and deadlines were always hit.
+          </p>
+          <h1 class="mb-3 font-fraunces text-lg font-black text-[#23303e]">
+            Emily R.
+          </h1>
+          <p class="mb-14 text-[#a7abae] text-xs font-barlow">
+            Marketing Director
+          </p>
+        </div>
+
+        <div class="flex flex-col items-center text-center">
+          <img
+            src="img/image-thomas.jpg"
+            alt=""
+            class="w-[60px] rounded-[50%] mb-4"
+          />
+          <p class="mb-4 text-[#818498] font-barlow">
+            Sunnyside’s enthusiasm coupled with their keen interest in our
+            brand’s success made it a satisfying and enjoyable experience.
+          </p>
+          <h1 class="mb-3 font-fraunces text-lg font-black text-[#23303e]">
+            Thomas S.
+          </h1>
+          <p class="mb-14 text-[#a7abae] text-xs font-barlow">
+            Chief Operating Officer
+          </p>
+        </div>
+
+        <div class="flex flex-col items-center text-center">
+          <img
+            src="img/image-jennie.jpg"
+            alt=""
+            class="w-[60px] rounded-[50%] mb-4"
+          />
+          <p class="mb-4 text-[#818498] font-barlow">
+            Incredible end result! Our sales increased over 400% when we worked
+            with Sunnyside. Highly recommended!
+          </p>
+          <h1 class="mb-3 font-fraunces text-lg font-black text-[#23303e]">
+            Jennie F.
+          </h1>
+          <p class="mb-14 text-[#a7abae] text-xs font-barlow">Business Owner</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Client testimonials section - end -->
+
+    <!-- Gallery section - start -->
+    <section
+      class="grid grid-cols-2 grid-rows-2 md:grid-cols-4 md:grid-rows-1 md:max-h-[500px]"
+    >
+      <img
+        src="img/mobile/image-gallery-milkbottles.jpg"
+        alt=""
+        class="w-[100%] h-auto"
+      />
+      <img
+        src="img/mobile/image-gallery-orange.jpg"
+        alt=""
+        class="w-[100%] h-auto"
+      />
+      <img
+        src="img/mobile/image-gallery-cone.jpg"
+        alt=""
+        class="w-[100%] h-auto"
+      />
+      <img
+        src="img/mobile/image-gallery-sugar-cubes.jpg"
+        alt=""
+        class="w-[100%] h-auto"
+      />
+    </section>
+
+    <!-- Gallery section - end -->
+
+    <footer class="bg-[#90d4c5]">
+      <section class="w-[85%] mx-auto flex flex-col items-center py-14">
+        <img src="img/mobile/logo2.svg" alt="" class="max-w-[125px] mb-8" />
+
+        <div class="flex gap-7 font-barlow text-[#3f8374] mb-12">
+          <h1 class="hover:text-white cursor-pointer">About</h1>
+          <h1 class="hover:text-white cursor-pointer">Services</h1>
+          <h1 class="hover:text-white cursor-pointer">Projects</h1>
+        </div>
+
+        <div class="flex justify-evenly gap-5">
+          <img
+            src="img/icon-facebook.svg"
+            alt=""
+            class="cursor-pointer filter-svg"
+          />
+          <img
+            src="img/icon-instagram.svg"
+            alt=""
+            class="cursor-pointer filter-svg"
+          />
+          <img
+            src="img/icon-twitter.svg"
+            alt=""
+            class="cursor-pointer filter-svg"
+          />
+          <img
+            src="img/icon-pinterest.svg"
+            alt=""
+            class="cursor-pointer filter-svg"
+          />
+        </div>
+      </section>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
